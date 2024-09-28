@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React to Vanilla</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="min-h-screen bg-gradient-to-b from-yellow-200 via-yellow-300 to-yellow-400 text-gray-800">
+    <nav id="navbar" class="bg-yellow-500 bg-opacity-90 p-4 sticky top-0 z-10 shadow-md">
+      <div class="container mx-auto flex justify-center space-x-4">
+        <button id="homeBtn" class="px-4 py-2 rounded-full bg-yellow-600 text-white">Home</button>
+        <button id="devExplanationBtn" class="px-4 py-2 rounded-full bg-yellow-400 hover:bg-yellow-500">Dev Explanation</button>
+        <button id="trustBtn" class="px-4 py-2 rounded-full bg-yellow-400 hover:bg-yellow-500">Trust</button>
+      </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+      <section id="home" class="mb-24">
+        <img src="/static/images/1.jpg" alt="Meme Token Mascot" class="mx-auto rounded-full border-4 border-yellow-600 shadow-lg" width="300" height="300">
+        <p class="mt-4 text-xl text-center font-semibold">
+          D stands for "뒤질만큼" (dying to), and H means "홀딩하면 졸업한다"
+        </p>
+      </section>
+
+      <section id="devExplanation" class="mb-12">
+        <img src="/static/images/2.jpg" alt="Meme Token Dev" class="mx-auto rounded-lg border-4 border-yellow-600 shadow-lg" width="300" height="300">
+        <p class="mt-4 text-lg text-center">
+          The dev is too dumb and has no hands, so they can't do a rug pull!
+        </p>
+      </section>
+
+      <section id="trust" class="mb-24">
+        <img src="/static/images/4.jpg" alt="SOL-DH Liquidity Lock" class="mx-auto rounded-lg border-4 border-yellow-600 shadow-lg" width="100%" height="auto">
+        <p class="mt-4 text-xl text-center font-semibold">
+          The dev has locked 53.85k SOL-DH in liquidity, betting their life on this meme coin!
+        </p>
+      </section>
+
+      <section class="mb-24 text-center">
+        <img src="/static/images/3.jpg" alt="Take My Money Meme" class="mx-auto rounded-lg border-4 border-yellow-600 shadow-lg" width="300" height="300">
+        <div class="mt-4 space-y-4">
+          <a href="https://x.com/DHKM95" class="block text-xl hover:underline text-yellow-800">Follow Dev on Twitter</a>
+          <a href="https://jup.ag/swap/SOL-Go8p6BheZd51xnr9xfHVUBuY5fmQ37gGAndoLfBDfM4V" class="inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:from-yellow-600 hover:to-yellow-700 transition-all transform hover:scale-105 shadow-lg">
+            Buy $DH
+          </a>
+          <p class="text-sm">Contract Address: Go8p6BheZd51xnr9xfHVUBuY5fmQ37gGAndoLfBDfM4V</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
