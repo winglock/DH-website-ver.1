@@ -1,0 +1,105 @@
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, #fef3c7, #fde68a, #fbbf24);
+}
+
+.text-gray-800 {
+  color: #2d3748;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-x-4 > * + * {
+  margin-left: 16px;
+}
+
+.p-4 {
+  padding: 16px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 12px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-yellow-600 {
+  background-color: #d97706;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.bg-yellow-400 {
+  background-color: #fbbf24;
+}
+
+.hover\:bg-yellow-500:hover {
+  background-color: #f59e0b;
+}
+
+.transition-colors {
+  transition: background-color 0.3s;
+}
+
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.transform {
+  transform: scale(1);
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+}
